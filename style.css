@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Les cartes seront empilées les unes sur les autres */
+  align-items: center; /* Centrer les cartes horizontalement */
+  padding: 20px;
+  background-color: #91A3B0;
+  font-family: Montserrat Alternates, sans-serif;
+}
+
+h1 {
+  color: #91A3B0;
+}
+
+h2 {
+  color: #2A3439;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+} 
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+    } 
+ } 
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    } 
+ } 
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 20px;
+  margin-bottom: 20px; /* Ajout de marge entre les cartes */
+  background-color: #f9f9f9;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 150px; /* Ajustez la taille de l'image */
+  height: 150px; /* Ajustez la taille de l'image */
+  object-fit: cover; /* Ajustez la taille et le cadrage de l'image */
+}
+
+.social-links a:hover {
+  color: #003262; /* Couleur bleue au survol */
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-links li {
+  display: inline;
+  padding: 10px;
+}
+
+.social-links i {
+  font-size: 30px;
+  color: #5D8AA8;
+}
+
+.social-links i:hover {
+  color: #003262;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  background-color: #5D8AA8; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #003262; /* Couleur de fond au survol */
+}
